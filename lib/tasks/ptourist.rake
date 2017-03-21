@@ -76,7 +76,7 @@ namespace :ptourist do
   end
 
   desc "reset all data"
-  task reset_all: [:users,:subjects] do
+  task reset_all: [:users,:subjects, :create_inquiries] do
   end
 
   desc "deletes things, images, and links"
